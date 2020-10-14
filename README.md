@@ -14,7 +14,7 @@ Same thing but with a page size of A4 and configured printer resolution. The pix
 
 $ im -s .25 pic -t dice.png test.png
 
-Inputs dice.png to use as an image tile, outputs the tiling with tiles scaled by 1.5
+Inputs dice.png to use as an image tile, outputs the tiling with tiles scaled by .25
 
 Imagen provides a command line that can be customized to add in image transformations, convolutions, new patterns, etc.
 The code is python 2.7.x & 3.x compatible and includes the png.py module courtesy of the pyPNG project.
